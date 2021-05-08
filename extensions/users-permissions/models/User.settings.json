@@ -67,6 +67,10 @@
       "type": "integer",
       "max": 3,
       "default": 0
+    },
+    "questionPoints": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
