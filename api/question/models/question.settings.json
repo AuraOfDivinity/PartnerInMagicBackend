@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "name": "Question"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer1": {
+      "type": "string"
+    },
+    "answer2": {
+      "type": "string"
+    },
+    "answer1_points": {
+      "type": "integer"
+    },
+    "answer2_points": {
+      "type": "integer"
+    }
+  }
+}
