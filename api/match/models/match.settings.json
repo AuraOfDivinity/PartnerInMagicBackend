@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "matches",
+  "info": {
+    "name": "Match",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user1": {
+      "type": "string"
+    },
+    "user2": {
+      "type": "string"
+    },
+    "chatroomId": {
+      "type": "string"
+    }
+  }
+}
